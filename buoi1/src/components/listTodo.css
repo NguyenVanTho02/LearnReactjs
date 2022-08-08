@@ -1,0 +1,21 @@
+.change-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #999;
+}
+
+.input-change {
+  width: 76%;
+  padding: 4px 10px;
+}
+
+.btn-save {
+  background-color: #fff;
+  color: #ff33ae;
+  border: 1px solid #ff33ae;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,500;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.main {
+  padding: 80px 0;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(346deg, rgba(67,185,165,1) 26%, rgba(41,115,162,0.9671218829328606) 67%);
+}

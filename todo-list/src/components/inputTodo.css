@@ -1,0 +1,13 @@
+.input-todo {
+  width: 100%;
+  background-color: transparent;
+  padding: 6px 0;
+  font-size: 26px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.input-todo::placeholder {
+  color: rgba(255, 255, 255, 0.594);
+}

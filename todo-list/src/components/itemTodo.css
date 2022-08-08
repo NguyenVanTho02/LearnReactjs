@@ -1,0 +1,40 @@
+.item-todo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.check-title {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.content-todo {
+  font-size: 20px;
+}
+
+.icon-completed {
+  font-size: 50px;
+  padding-right: 30px;
+  color: #6af5cb;
+  cursor: pointer;
+}
+
+
+
+.btn-delete {
+  align-self: flex-end;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.line-through {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
