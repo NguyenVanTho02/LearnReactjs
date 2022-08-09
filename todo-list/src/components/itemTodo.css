@@ -14,6 +14,9 @@
 }
 
 .content-todo {
+  margin-left: -5px;
+  border: none;
+  width: 600px;
   font-size: 20px;
 }
 
@@ -37,4 +40,8 @@
 .line-through {
   text-decoration: line-through;
   opacity: 0.6;
+}
+
+.icon-change {
+  padding-left: 10px;
 }
